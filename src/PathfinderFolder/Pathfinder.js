@@ -77,6 +77,8 @@ export default class Pathfinder extends Component {
 
         return (
             <>
+                <h2>Welcome to the Wayfinding app</h2>
+                <h3>Click with the mouse to place obstacles, then click on the button bellow to start the wayfinder</h3>
                 <button onClick={() => this.visualizeDijkstra()}>
                     Visualize Dijkstra's Algorithm
         </button>
